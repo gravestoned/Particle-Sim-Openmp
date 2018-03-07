@@ -1,0 +1,5 @@
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Project\openmp
+src:E:/Project/openmp/src/common.cppE:/Project/openmp/src/main.cppE:/Project/openmp/src/particlematrix.cppE:/Project/openmp/src/particles.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Project/openmp/cmake-build-debug
