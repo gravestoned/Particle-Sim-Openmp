@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "E:/Project/openmp/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/TDM-GCC/bin/g++.exe 
@@ -23,37 +23,37 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "E:/Project/openmp/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_8b75c/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_8b75c.dir\build.make CMakeFiles/cmTC_8b75c.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8b75c.dir/testCCompiler.c.obj
-C:\TDM-GCC\bin\gcc.exe    -o CMakeFiles\cmTC_8b75c.dir\testCCompiler.c.obj   -c E:\Project\openmp\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_8b75c.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8b75c.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_8b75c.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_8b75c.dir/objects.a @CMakeFiles\cmTC_8b75c.dir\objects1.rsp
-C:\TDM-GCC\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_8b75c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8b75c.exe -Wl,--out-implib,libcmTC_8b75c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8b75c.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_59e16/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_59e16.dir\build.make CMakeFiles/cmTC_59e16.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59e16.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\gcc.exe    -o CMakeFiles\cmTC_59e16.dir\testCCompiler.c.obj   -c D:\dev\Particle-Sim-Openmp\Particle-Sim-Openmp\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_59e16.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_59e16.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_59e16.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_59e16.dir/objects.a @CMakeFiles\cmTC_59e16.dir\objects1.rsp
+C:\TDM-GCC\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_59e16.dir/objects.a -Wl,--no-whole-archive  -o cmTC_59e16.exe -Wl,--out-implib,libcmTC_59e16.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_59e16.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_13d7d/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_13d7d.dir\build.make CMakeFiles/cmTC_13d7d.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_13d7d.dir/CMakeCCompilerABI.c.obj
-C:\TDM-GCC\bin\gcc.exe    -o CMakeFiles\cmTC_13d7d.dir\CMakeCCompilerABI.c.obj   -c "E:\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
-Linking C executable cmTC_13d7d.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_13d7d.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_13d7d.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_13d7d.dir/objects.a @CMakeFiles\cmTC_13d7d.dir\objects1.rsp
-C:\TDM-GCC\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_13d7d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_13d7d.exe -Wl,--out-implib,libcmTC_13d7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_576bc/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_576bc.dir\build.make CMakeFiles/cmTC_576bc.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_576bc.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\gcc.exe    -o CMakeFiles\cmTC_576bc.dir\CMakeCCompilerABI.c.obj   -c "E:\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_576bc.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_576bc.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_576bc.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_576bc.dir/objects.a @CMakeFiles\cmTC_576bc.dir\objects1.rsp
+C:\TDM-GCC\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_576bc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_576bc.exe -Wl,--out-implib,libcmTC_576bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\TDM-GCC\bin\gcc.exe
 COLLECT_LTO_WRAPPER=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe
@@ -63,25 +63,25 @@ Thread model: posix
 gcc version 5.1.0 (tdm64-1) 
 COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13d7d.exe' '-mtune=generic' '-march=x86-64'
- C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccVnNoFo.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_13d7d.exe C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC/bin/../lib/gcc -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_13d7d.dir/objects.a --no-whole-archive --out-implib libcmTC_13d7d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_576bc.exe' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccG4dnBq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_576bc.exe C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC/bin/../lib/gcc -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_576bc.dir/objects.a --no-whole-archive --out-implib libcmTC_576bc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_13d7d/fast"]
-  ignore line: [C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_13d7d.dir\build.make CMakeFiles/cmTC_13d7d.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_13d7d.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\TDM-GCC\bin\gcc.exe    -o CMakeFiles\cmTC_13d7d.dir\CMakeCCompilerABI.c.obj   -c "E:\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_13d7d.exe]
-  ignore line: ["E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_13d7d.dir\link.txt --verbose=1]
-  ignore line: ["E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_13d7d.dir/objects.a]
-  ignore line: [C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_13d7d.dir/objects.a @CMakeFiles\cmTC_13d7d.dir\objects1.rsp]
-  ignore line: [C:\TDM-GCC\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_13d7d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_13d7d.exe -Wl,--out-implib,libcmTC_13d7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_576bc/fast"]
+  ignore line: [C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_576bc.dir\build.make CMakeFiles/cmTC_576bc.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_576bc.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\TDM-GCC\bin\gcc.exe    -o CMakeFiles\cmTC_576bc.dir\CMakeCCompilerABI.c.obj   -c "E:\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_576bc.exe]
+  ignore line: ["E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_576bc.dir\link.txt --verbose=1]
+  ignore line: ["E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_576bc.dir/objects.a]
+  ignore line: [C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_576bc.dir/objects.a @CMakeFiles\cmTC_576bc.dir\objects1.rsp]
+  ignore line: [C:\TDM-GCC\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_576bc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_576bc.exe -Wl,--out-implib,libcmTC_576bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\TDM-GCC\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe]
@@ -98,13 +98,13 @@ Parsed C implicit link information from above output:
   ignore line: [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib/]
   ignore line: [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13d7d.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccVnNoFo.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_13d7d.exe C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC/bin/../lib/gcc -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_13d7d.dir/objects.a --no-whole-archive --out-implib libcmTC_13d7d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_576bc.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccG4dnBq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_576bc.exe C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC/bin/../lib/gcc -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_576bc.dir/objects.a --no-whole-archive --out-implib libcmTC_576bc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o]
     arg [C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccVnNoFo.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccG4dnBq.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -125,7 +125,7 @@ Parsed C implicit link information from above output:
     arg [--exclude-libs=libpthread.a] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_13d7d.exe] ==> ignore
+    arg [cmTC_576bc.exe] ==> ignore
     arg [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o] ==> ignore
     arg [-LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0] ==> dir [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0]
@@ -135,10 +135,10 @@ Parsed C implicit link information from above output:
     arg [-LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../..] ==> dir [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_13d7d.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_576bc.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_13d7d.dll.a] ==> ignore
+    arg [libcmTC_576bc.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -175,19 +175,19 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_a3a1a/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_a3a1a.dir\build.make CMakeFiles/cmTC_a3a1a.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a3a1a.dir/feature_tests.c.obj
-C:\TDM-GCC\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_a3a1a.dir\feature_tests.c.obj   -c E:\Project\openmp\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_a3a1a.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a3a1a.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a3a1a.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_a3a1a.dir/objects.a @CMakeFiles\cmTC_a3a1a.dir\objects1.rsp
-C:\TDM-GCC\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a3a1a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a3a1a.exe -Wl,--out-implib,libcmTC_a3a1a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a3a1a.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_4ec48/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_4ec48.dir\build.make CMakeFiles/cmTC_4ec48.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ec48.dir/feature_tests.c.obj
+C:\TDM-GCC\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_4ec48.dir\feature_tests.c.obj   -c D:\dev\Particle-Sim-Openmp\Particle-Sim-Openmp\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_4ec48.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4ec48.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4ec48.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_4ec48.dir/objects.a @CMakeFiles\cmTC_4ec48.dir\objects1.rsp
+C:\TDM-GCC\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_4ec48.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4ec48.exe -Wl,--out-implib,libcmTC_4ec48.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4ec48.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,19 +197,19 @@ mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMak
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_76822/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_76822.dir\build.make CMakeFiles/cmTC_76822.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_76822.dir/feature_tests.c.obj
-C:\TDM-GCC\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_76822.dir\feature_tests.c.obj   -c E:\Project\openmp\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_76822.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_76822.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_76822.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_76822.dir/objects.a @CMakeFiles\cmTC_76822.dir\objects1.rsp
-C:\TDM-GCC\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_76822.dir/objects.a -Wl,--no-whole-archive  -o cmTC_76822.exe -Wl,--out-implib,libcmTC_76822.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_76822.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_18351/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_18351.dir\build.make CMakeFiles/cmTC_18351.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18351.dir/feature_tests.c.obj
+C:\TDM-GCC\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_18351.dir\feature_tests.c.obj   -c D:\dev\Particle-Sim-Openmp\Particle-Sim-Openmp\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_18351.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_18351.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_18351.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_18351.dir/objects.a @CMakeFiles\cmTC_18351.dir\objects1.rsp
+C:\TDM-GCC\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_18351.dir/objects.a -Wl,--no-whole-archive  -o cmTC_18351.exe -Wl,--out-implib,libcmTC_18351.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_18351.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -219,19 +219,19 @@ mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMak
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_91c76/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_91c76.dir\build.make CMakeFiles/cmTC_91c76.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_91c76.dir/feature_tests.c.obj
-C:\TDM-GCC\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_91c76.dir\feature_tests.c.obj   -c E:\Project\openmp\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_91c76.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_91c76.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_91c76.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_91c76.dir/objects.a @CMakeFiles\cmTC_91c76.dir\objects1.rsp
-C:\TDM-GCC\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_91c76.dir/objects.a -Wl,--no-whole-archive  -o cmTC_91c76.exe -Wl,--out-implib,libcmTC_91c76.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_91c76.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_29614/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_29614.dir\build.make CMakeFiles/cmTC_29614.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29614.dir/feature_tests.c.obj
+C:\TDM-GCC\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_29614.dir\feature_tests.c.obj   -c D:\dev\Particle-Sim-Openmp\Particle-Sim-Openmp\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_29614.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_29614.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_29614.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_29614.dir/objects.a @CMakeFiles\cmTC_29614.dir\objects1.rsp
+C:\TDM-GCC\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_29614.dir/objects.a -Wl,--no-whole-archive  -o cmTC_29614.exe -Wl,--out-implib,libcmTC_29614.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_29614.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -239,34 +239,34 @@ mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMak
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_fa025/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_fa025.dir\build.make CMakeFiles/cmTC_fa025.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fa025.dir/testCXXCompiler.cxx.obj
-C:\TDM-GCC\bin\g++.exe     -o CMakeFiles\cmTC_fa025.dir\testCXXCompiler.cxx.obj -c E:\Project\openmp\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_fa025.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_fa025.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_fa025.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_fa025.dir/objects.a @CMakeFiles\cmTC_fa025.dir\objects1.rsp
-C:\TDM-GCC\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_fa025.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fa025.exe -Wl,--out-implib,libcmTC_fa025.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fa025.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_28fd2/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_28fd2.dir\build.make CMakeFiles/cmTC_28fd2.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28fd2.dir/testCXXCompiler.cxx.obj
+C:\TDM-GCC\bin\g++.exe     -o CMakeFiles\cmTC_28fd2.dir\testCXXCompiler.cxx.obj -c D:\dev\Particle-Sim-Openmp\Particle-Sim-Openmp\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_28fd2.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_28fd2.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_28fd2.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_28fd2.dir/objects.a @CMakeFiles\cmTC_28fd2.dir\objects1.rsp
+C:\TDM-GCC\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_28fd2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_28fd2.exe -Wl,--out-implib,libcmTC_28fd2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_28fd2.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_002ac/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_002ac.dir\build.make CMakeFiles/cmTC_002ac.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_002ac.dir/CMakeCXXCompilerABI.cpp.obj
-C:\TDM-GCC\bin\g++.exe     -o CMakeFiles\cmTC_002ac.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTC_002ac.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_002ac.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_002ac.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_002ac.dir/objects.a @CMakeFiles\cmTC_002ac.dir\objects1.rsp
-C:\TDM-GCC\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_002ac.dir/objects.a -Wl,--no-whole-archive  -o cmTC_002ac.exe -Wl,--out-implib,libcmTC_002ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_4c6bc/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_4c6bc.dir\build.make CMakeFiles/cmTC_4c6bc.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4c6bc.dir/CMakeCXXCompilerABI.cpp.obj
+C:\TDM-GCC\bin\g++.exe     -o CMakeFiles\cmTC_4c6bc.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_4c6bc.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4c6bc.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4c6bc.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_4c6bc.dir/objects.a @CMakeFiles\cmTC_4c6bc.dir\objects1.rsp
+C:\TDM-GCC\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_4c6bc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4c6bc.exe -Wl,--out-implib,libcmTC_4c6bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\TDM-GCC\bin\g++.exe
 COLLECT_LTO_WRAPPER=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe
@@ -276,25 +276,25 @@ Thread model: posix
 gcc version 5.1.0 (tdm64-1) 
 COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_002ac.exe' '-mtune=generic' '-march=x86-64'
- C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccuJAHGg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_002ac.exe C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC/bin/../lib/gcc -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_002ac.dir/objects.a --no-whole-archive --out-implib libcmTC_002ac.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c6bc.exe' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccJr9o69.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_4c6bc.exe C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC/bin/../lib/gcc -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_4c6bc.dir/objects.a --no-whole-archive --out-implib libcmTC_4c6bc.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_002ac/fast"]
-  ignore line: [C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_002ac.dir\build.make CMakeFiles/cmTC_002ac.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_002ac.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\TDM-GCC\bin\g++.exe     -o CMakeFiles\cmTC_002ac.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTC_002ac.exe]
-  ignore line: ["E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_002ac.dir\link.txt --verbose=1]
-  ignore line: ["E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_002ac.dir/objects.a]
-  ignore line: [C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_002ac.dir/objects.a @CMakeFiles\cmTC_002ac.dir\objects1.rsp]
-  ignore line: [C:\TDM-GCC\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_002ac.dir/objects.a -Wl,--no-whole-archive  -o cmTC_002ac.exe -Wl,--out-implib,libcmTC_002ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_4c6bc/fast"]
+  ignore line: [C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_4c6bc.dir\build.make CMakeFiles/cmTC_4c6bc.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4c6bc.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\TDM-GCC\bin\g++.exe     -o CMakeFiles\cmTC_4c6bc.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_4c6bc.exe]
+  ignore line: ["E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4c6bc.dir\link.txt --verbose=1]
+  ignore line: ["E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4c6bc.dir/objects.a]
+  ignore line: [C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_4c6bc.dir/objects.a @CMakeFiles\cmTC_4c6bc.dir\objects1.rsp]
+  ignore line: [C:\TDM-GCC\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_4c6bc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4c6bc.exe -Wl,--out-implib,libcmTC_4c6bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\TDM-GCC\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe]
@@ -311,13 +311,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib/]
   ignore line: [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_002ac.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccuJAHGg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_002ac.exe C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC/bin/../lib/gcc -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_002ac.dir/objects.a --no-whole-archive --out-implib libcmTC_002ac.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c6bc.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccJr9o69.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_4c6bc.exe C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC/bin/../lib/gcc -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_4c6bc.dir/objects.a --no-whole-archive --out-implib libcmTC_4c6bc.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o]
     arg [C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccuJAHGg.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Ossian\AppData\Local\Temp\ccJr9o69.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -338,7 +338,7 @@ Parsed CXX implicit link information from above output:
     arg [--exclude-libs=libpthread.a] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_002ac.exe] ==> ignore
+    arg [cmTC_4c6bc.exe] ==> ignore
     arg [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o] ==> ignore
     arg [-LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0] ==> dir [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0]
@@ -348,10 +348,10 @@ Parsed CXX implicit link information from above output:
     arg [-LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../..] ==> dir [C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_002ac.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_4c6bc.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_002ac.dll.a] ==> ignore
+    arg [libcmTC_4c6bc.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -391,19 +391,19 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_4faa6/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_4faa6.dir\build.make CMakeFiles/cmTC_4faa6.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4faa6.dir/feature_tests.cxx.obj
-C:\TDM-GCC\bin\g++.exe    -std=c++1z -o CMakeFiles\cmTC_4faa6.dir\feature_tests.cxx.obj -c E:\Project\openmp\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_4faa6.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4faa6.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4faa6.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_4faa6.dir/objects.a @CMakeFiles\cmTC_4faa6.dir\objects1.rsp
-C:\TDM-GCC\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_4faa6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4faa6.exe -Wl,--out-implib,libcmTC_4faa6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4faa6.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_7fa75/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_7fa75.dir\build.make CMakeFiles/cmTC_7fa75.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7fa75.dir/feature_tests.cxx.obj
+C:\TDM-GCC\bin\g++.exe    -std=c++1z -o CMakeFiles\cmTC_7fa75.dir\feature_tests.cxx.obj -c D:\dev\Particle-Sim-Openmp\Particle-Sim-Openmp\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_7fa75.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7fa75.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7fa75.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_7fa75.dir/objects.a @CMakeFiles\cmTC_7fa75.dir\objects1.rsp
+C:\TDM-GCC\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_7fa75.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7fa75.exe -Wl,--out-implib,libcmTC_7fa75.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7fa75.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -466,19 +466,19 @@ mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMak
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_e8bcf/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_e8bcf.dir\build.make CMakeFiles/cmTC_e8bcf.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e8bcf.dir/feature_tests.cxx.obj
-C:\TDM-GCC\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_e8bcf.dir\feature_tests.cxx.obj -c E:\Project\openmp\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_e8bcf.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e8bcf.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e8bcf.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_e8bcf.dir/objects.a @CMakeFiles\cmTC_e8bcf.dir\objects1.rsp
-C:\TDM-GCC\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_e8bcf.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e8bcf.exe -Wl,--out-implib,libcmTC_e8bcf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e8bcf.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_98162/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_98162.dir\build.make CMakeFiles/cmTC_98162.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98162.dir/feature_tests.cxx.obj
+C:\TDM-GCC\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_98162.dir\feature_tests.cxx.obj -c D:\dev\Particle-Sim-Openmp\Particle-Sim-Openmp\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_98162.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_98162.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_98162.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_98162.dir/objects.a @CMakeFiles\cmTC_98162.dir\objects1.rsp
+C:\TDM-GCC\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_98162.dir/objects.a -Wl,--no-whole-archive  -o cmTC_98162.exe -Wl,--out-implib,libcmTC_98162.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_98162.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -541,19 +541,19 @@ mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMak
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_cc095/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_cc095.dir\build.make CMakeFiles/cmTC_cc095.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cc095.dir/feature_tests.cxx.obj
-C:\TDM-GCC\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_cc095.dir\feature_tests.cxx.obj -c E:\Project\openmp\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_cc095.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cc095.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cc095.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_cc095.dir/objects.a @CMakeFiles\cmTC_cc095.dir\objects1.rsp
-C:\TDM-GCC\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_cc095.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cc095.exe -Wl,--out-implib,libcmTC_cc095.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cc095.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_9ea92/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_9ea92.dir\build.make CMakeFiles/cmTC_9ea92.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ea92.dir/feature_tests.cxx.obj
+C:\TDM-GCC\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_9ea92.dir\feature_tests.cxx.obj -c D:\dev\Particle-Sim-Openmp\Particle-Sim-Openmp\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_9ea92.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9ea92.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_9ea92.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_9ea92.dir/objects.a @CMakeFiles\cmTC_9ea92.dir\objects1.rsp
+C:\TDM-GCC\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_9ea92.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9ea92.exe -Wl,--out-implib,libcmTC_9ea92.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9ea92.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -616,19 +616,19 @@ mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMak
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_54981/fast"
-C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_54981.dir\build.make CMakeFiles/cmTC_54981.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_54981.dir/feature_tests.cxx.obj
-C:\TDM-GCC\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_54981.dir\feature_tests.cxx.obj -c E:\Project\openmp\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_54981.exe
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_54981.dir\link.txt --verbose=1
-"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_54981.dir/objects.a
-C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_54981.dir/objects.a @CMakeFiles\cmTC_54981.dir\objects1.rsp
-C:\TDM-GCC\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_54981.dir/objects.a -Wl,--no-whole-archive  -o cmTC_54981.exe -Wl,--out-implib,libcmTC_54981.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_54981.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'E:/Project/openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/TDM-GCC/bin/mingw32-make.exe" "cmTC_4b942/fast"
+C:/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_4b942.dir\build.make CMakeFiles/cmTC_4b942.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b942.dir/feature_tests.cxx.obj
+C:\TDM-GCC\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_4b942.dir\feature_tests.cxx.obj -c D:\dev\Particle-Sim-Openmp\Particle-Sim-Openmp\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_4b942.exe
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4b942.dir\link.txt --verbose=1
+"E:\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4b942.dir/objects.a
+C:\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_4b942.dir/objects.a @CMakeFiles\cmTC_4b942.dir\objects1.rsp
+C:\TDM-GCC\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_4b942.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4b942.exe -Wl,--out-implib,libcmTC_4b942.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4b942.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

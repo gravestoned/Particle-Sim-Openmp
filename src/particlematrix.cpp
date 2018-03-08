@@ -39,13 +39,12 @@ void ParticleMatrix::collision_check(particle_matrix_t & particle_matrix) {
         int start = ((slice > 0) ? (slice - 1) : slice);
         int end = ((slice < nof_slices - 1) ? (slice + 2) : (slice + 1));
 
-        for (int i = 0; i < particle_matrix[slice].size(); i++) {
-            particle_t * curr_particle = particle_matrix[slice][i];
-            (*curr_particle).ax = (*curr_particle).ay = 0;
+        for (auto curr_particle = particle_matrix[slice].begin(); curr_particle != particle_matrix[slice].end(); curr_particle++ ) {
+            (**curr_particle).ax = (**curr_particle).ay = 0;
 
             for (int j = start; j < end; j++) {
-                for (int k = 0; k < particle_matrix[j].size(); k++) {
-                    apply_force((*curr_particle), (*particle_matrix[j][k]));
+                for (auto neigh_particle = particle_matrix[j].begin(); neigh_particle != particle_matrix[j].end(); neigh_particle++ ) {
+                    apply_force((**curr_particle), (**neigh_particle));
                 }
             }
         }

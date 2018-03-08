@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/Project/openmp/src/common.cpp
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.cpp
 common.h
-E:/Project/openmp/src/common.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
 time.h
 -
 string.h
@@ -16,41 +16,41 @@ string.h
 sys/time.h
 -
 windows.h
-E:/Project/openmp/src/windows.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/windows.h
 
-E:/Project/openmp/src/common.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
 particles.h
-E:/Project/openmp/src/particles.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
 iostream
 -
 
-E:/Project/openmp/src/main.cpp
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/main.cpp
 unistd.h
 -
 common.h
-E:/Project/openmp/src/common.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
 particlematrix.h
-E:/Project/openmp/src/particlematrix.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 
-E:/Project/openmp/src/particlematrix.cpp
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.cpp
 cstdio
 -
 cmath
 -
 particlematrix.h
-E:/Project/openmp/src/particlematrix.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 
-E:/Project/openmp/src/particlematrix.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 particles.h
-E:/Project/openmp/src/particles.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
 vector
 -
 
-E:/Project/openmp/src/particles.cpp
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.cpp
 random
 -
 particles.h
-E:/Project/openmp/src/particles.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
 
-E:/Project/openmp/src/particles.h
+D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
 
