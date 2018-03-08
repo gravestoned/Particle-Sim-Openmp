@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "common.h"
 #include "particlematrix.h"
 
@@ -32,7 +33,7 @@ int main( int argc, char **argv )
 
     set_size(size);
 
-    ParticleMatrix matrix (n);
+    ParticleMatrix matrix (n, size);
 
 
     //

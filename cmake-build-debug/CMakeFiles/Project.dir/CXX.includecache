@@ -25,26 +25,26 @@ iostream
 -
 
 E:/Project/openmp/src/main.cpp
-stdlib.h
--
-stdio.h
--
-assert.h
--
-math.h
+unistd.h
 -
 common.h
 E:/Project/openmp/src/common.h
-particles.h
-E:/Project/openmp/src/particles.h
+particlematrix.h
+E:/Project/openmp/src/particlematrix.h
 
 E:/Project/openmp/src/particlematrix.cpp
+cstdio
+-
+cmath
+-
 particlematrix.h
 E:/Project/openmp/src/particlematrix.h
 
 E:/Project/openmp/src/particlematrix.h
 particles.h
 E:/Project/openmp/src/particles.h
+vector
+-
 
 E:/Project/openmp/src/particles.cpp
 random

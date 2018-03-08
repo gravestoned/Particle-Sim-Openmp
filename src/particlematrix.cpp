@@ -1,107 +1,68 @@
+#include <cstdio>
+#include <cmath>
 #include "particlematrix.h"
 
-ParticleMatrix::ParticleMatrix(int n) {
+ParticleMatrix::ParticleMatrix(int n, int s) {
     nof_particles = n;
-    nof_slices = 10;
+    nof_slices = NOF_SLICES;
+    size = s;
 
     particles = new particle_t[nof_particles];
-    particle_storage = new particle_t[nof_particles];
-
     init_particles(nof_particles, particles);
-
-    particle_storage = new particle_t[nof_particles];
-
-    particle_index_vector = new int[nof_particles];
-    slice_lengths = new int[nof_slices];
-    slice_sizes = new int[nof_slices];
 }
 
-void ParticleMatrix::index_particles() {
-    int curr_index;
+void ParticleMatrix::index_particles(particle_matrix_t & particle_matrix) {
+
+    particle_matrix_t slices(NOF_SLICES);
 
 
-#pragma omp parallel for
+    for (int i = 0; i < nof_particles; i++) {
+        int curr_particle_slice = (int) (particles[i].x*ceil(NOF_SLICES/size));
+
+        if (curr_particle_slice >= nof_slices) {
+            curr_particle_slice = nof_slices-1;
+        } else if (curr_particle_slice < 0) {
+            curr_particle_slice = 0;
+        }
+
+        slices[curr_particle_slice].push_back(&particles[i]);
+    }
+
     for (int i = 0; i < nof_slices; i++) {
-        slice_lengths[i] = 0;
-        slice_sizes[i] = 0;
-    }
-
-    /* calculates and saves particle slice index and size */
-#pragma omp for
-    for (int i = 0; i < nof_particles; i++) {
-        curr_index = (int) (particles[i].x*2)-1;
-
-        if (curr_index >= nof_slices) {
-            curr_index = nof_slices-1;
-        } else if (curr_index < 0) {
-            curr_index = 0;
-        }
-
-        particle_index_vector[i] = curr_index;
-        slice_lengths[curr_index]++;
-    }
-
-    /* builds new particle matrix */
-#pragma omp for
-    for (int i = 0; i < nof_particles; i++) {
-        curr_index = 0;
-
-        for (int j = 0; j < particle_index_vector[i]; j++) {
-            curr_index += slice_lengths[j];
-        }
-
-        curr_index += slice_sizes[particle_index_vector[i]];
-
-        copy_particle(&particles[i], &particle_storage[curr_index]);
-        slice_sizes[particle_index_vector[i]]++;
-    }
-
-    /* transfers newly built matrix to main particle matrix */
-#pragma omp for
-    for (int i = 0; i < nof_particles; i++) {
-        copy_particle(&particle_storage[i], &particles[i]);
+        particle_matrix.push_back(slices[i]);
     }
 }
-void ParticleMatrix::collision_check(int slice) {
-    int start = ((slice > 0) ? (slice - 1) : slice);
-    int end = ((slice < nof_slices - 1) ? (slice + 2) : (slice + 1));
+void ParticleMatrix::collision_check(particle_matrix_t & particle_matrix) {
 
 #pragma omp parallel for
-    for (int i = 0; i < slice_lengths[slice]; i++) {
-        particles[get_index(slice,i)].ax = particles[get_index(slice,i)].ay = 0;
+    for (int slice = 0; slice < NOF_SLICES; slice++) {
+        int start = ((slice > 0) ? (slice - 1) : slice);
+        int end = ((slice < nof_slices - 1) ? (slice + 2) : (slice + 1));
 
-        for (int j = start; j < end; j++) {
-            for (int k = 0; k < slice_lengths[j]; k++) {
-                apply_force(particles[get_index(slice, i)], particles[get_index(j, k)]);
+        for (int i = 0; i < particle_matrix[slice].size(); i++) {
+            particle_t * curr_particle = particle_matrix[slice][i];
+            (*curr_particle).ax = (*curr_particle).ay = 0;
+
+            for (int j = start; j < end; j++) {
+                for (int k = 0; k < particle_matrix[j].size(); k++) {
+                    apply_force((*curr_particle), (*particle_matrix[j][k]));
+                }
             }
         }
     }
 }
+
 void ParticleMatrix::perform_step() {
-    index_particles();
+    std::vector <std::vector<particle_t *>> particle_matrix;
 
-#pragma omp parallel for
-    for (int i = 0; i < nof_slices; i++) {
-        collision_check(i);
-    }
+    index_particles(particle_matrix);
 
-#pragma omp parallel for
+    collision_check(particle_matrix);
+
     for (int i = 0; i < nof_particles; i++) {
         move(particles[i]);
     }
 
-}
-
-int ParticleMatrix::get_index(int slice, int pos) {
-    int index = 0, i;
-
-    for (i = 0; i < slice; i++) {
-        index += slice_lengths[i];
-    }
-
-    index += pos;
-
-    return index;
 }
 
 particle_t * ParticleMatrix::get_particles() {

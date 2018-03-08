@@ -28,6 +28,10 @@ void copy_particle(particle_t * src, particle_t * dst) {
     dst->vy = src->vy;
 }
 
+void print_particle(particle_t particle) {
+    printf("x: %f, y: %f, ax: %f, ay: %f, vx: %f, vy: %f\n", particle.x,  particle.y,  particle.ax,  particle.ay,  particle.vx,  particle.vy);
+}
+
 //
 //  keep density constant
 //

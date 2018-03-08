@@ -7,6 +7,7 @@ CMakeFiles/Project.dir/src/common.cpp.obj: ../src/particles.h
 
 CMakeFiles/Project.dir/src/main.cpp.obj: ../src/common.h
 CMakeFiles/Project.dir/src/main.cpp.obj: ../src/main.cpp
+CMakeFiles/Project.dir/src/main.cpp.obj: ../src/particlematrix.h
 CMakeFiles/Project.dir/src/main.cpp.obj: ../src/particles.h
 
 CMakeFiles/Project.dir/src/particlematrix.cpp.obj: ../src/particlematrix.cpp
