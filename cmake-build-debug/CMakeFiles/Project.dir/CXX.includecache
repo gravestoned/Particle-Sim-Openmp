@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.cpp
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.cpp
 common.h
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
 time.h
 -
 string.h
@@ -18,41 +18,41 @@ sys/time.h
 cmath
 -
 windows.h
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/windows.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/windows.h
 
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
 particles.h
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
 iostream
 -
 
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/main.cpp
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/main.cpp
 unistd.h
 -
 common.h
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
 particlematrix.h
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.cpp
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.cpp
 cstdio
 -
 cmath
 -
 particlematrix.h
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 particles.h
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
 vector
 -
 
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.cpp
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.cpp
 random
 -
 particles.h
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
 
-D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
 

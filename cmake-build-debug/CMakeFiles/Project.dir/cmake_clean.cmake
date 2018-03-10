@@ -1,11 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Project.dir/src/common.cpp.obj"
-  "CMakeFiles/Project.dir/src/main.cpp.obj"
-  "CMakeFiles/Project.dir/src/particlematrix.cpp.obj"
-  "CMakeFiles/Project.dir/src/particles.cpp.obj"
+  "CMakeFiles/Project.dir/src/common.cpp.o"
+  "CMakeFiles/Project.dir/src/main.cpp.o"
+  "CMakeFiles/Project.dir/src/particlematrix.cpp.o"
+  "CMakeFiles/Project.dir/src/particles.cpp.o"
   "Project.pdb"
   "Project.exe"
-  "Project.exe.manifest"
   "libProject.dll.a"
 )
 

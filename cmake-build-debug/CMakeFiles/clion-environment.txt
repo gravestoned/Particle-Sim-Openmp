@@ -1,4 +1,4 @@
-ToolSet: w64 4.0@C:\TDM-GCC
+ToolSet: 2.10.0@E:\cygwin
 Options: 
 
-Options:
+Options:-DCMAKE_MAKE_PROGRAM=E:/cygwin/bin/make.exe

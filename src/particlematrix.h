@@ -4,7 +4,6 @@
 #include "particles.h"
 #include <vector>
 
-#define NOF_SLICES 10
 
 class ParticleMatrix {
 public:

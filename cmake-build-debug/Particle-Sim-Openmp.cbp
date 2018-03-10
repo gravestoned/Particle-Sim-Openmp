@@ -8,102 +8,100 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Project">
-				<Option output="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Project.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project"/>
-					<CompileFile command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Project/fast">
-				<Option output="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Project.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
-					<Add directory="C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project/fast"/>
-					<CompileFile command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC/bin/mingw32-make.exe -f &quot;D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Particle-Sim-Openmp">
+				<Option output="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Particle-Sim-Openmp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Particle-Sim-Openmp"/>
+					<CompileFile command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Particle-Sim-Openmp/fast">
+				<Option output="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Particle-Sim-Openmp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Particle-Sim-Openmp/fast"/>
+					<CompileFile command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.cpp">
-			<Option target="Project"/>
+		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.cpp">
+			<Option target="Particle-Sim-Openmp"/>
 		</Unit>
-		<Unit filename="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h">
-			<Option target="Project"/>
+		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h">
+			<Option target="Particle-Sim-Openmp"/>
 		</Unit>
-		<Unit filename="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/main.cpp">
-			<Option target="Project"/>
+		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/main.cpp">
+			<Option target="Particle-Sim-Openmp"/>
 		</Unit>
-		<Unit filename="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.cpp">
-			<Option target="Project"/>
+		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.cpp">
+			<Option target="Particle-Sim-Openmp"/>
 		</Unit>
-		<Unit filename="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h">
-			<Option target="Project"/>
+		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h">
+			<Option target="Particle-Sim-Openmp"/>
 		</Unit>
-		<Unit filename="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.cpp">
-			<Option target="Project"/>
+		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.cpp">
+			<Option target="Particle-Sim-Openmp"/>
 		</Unit>
-		<Unit filename="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h">
-			<Option target="Project"/>
+		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h">
+			<Option target="Particle-Sim-Openmp"/>
 		</Unit>
-		<Unit filename="D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/CMakeLists.txt">
+		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

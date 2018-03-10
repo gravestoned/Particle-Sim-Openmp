@@ -4,13 +4,13 @@
 
 ParticleMatrix::ParticleMatrix(int n) {
     nof_particles = n;
-    nof_slices = NOF_SLICES;
+    nof_slices = n/10;
 
     size = sqrt(0.0005 * n);
 
     set_size(n);
 
-    particle_matrix.resize(NOF_SLICES);
+    particle_matrix.resize(nof_slices);
 
     particles = new particle_t[nof_particles];
     init_particles(nof_particles, particles);
@@ -19,10 +19,10 @@ ParticleMatrix::ParticleMatrix(int n) {
 void ParticleMatrix::index_particles() {
 
     particle_matrix.clear();
-    particle_matrix.resize(NOF_SLICES);
+    particle_matrix.resize(nof_slices);
 
     for (int i = 0; i < nof_particles; i++) {
-        auto curr_particle_slice = (particles[i].x*ceil(NOF_SLICES/size));
+        auto curr_particle_slice = (particles[i].x*ceil(nof_slices/size));
 
         if (curr_particle_slice >= nof_slices) {
             curr_particle_slice = nof_slices-1;
@@ -36,7 +36,7 @@ void ParticleMatrix::index_particles() {
 }
 void ParticleMatrix::collision_check() {
 #pragma omp parallel for
-    for (int slice = 0; slice < NOF_SLICES; slice++) {
+    for (int slice = 0; slice < nof_slices; slice++) {
         int start = ((slice > 0) ? (slice - 1) : slice);
         int end = ((slice < nof_slices - 1) ? (slice + 2) : (slice + 1));
 
