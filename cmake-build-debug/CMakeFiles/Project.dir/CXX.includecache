@@ -15,6 +15,8 @@ string.h
 -
 sys/time.h
 -
+cmath
+-
 windows.h
 D:/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/windows.h
 

@@ -2,6 +2,7 @@
 #include <time.h>
 #include <string.h>
 #include <sys/time.h>
+#include <cmath>
 #include "windows.h"
 
 //
@@ -27,13 +28,14 @@ double read_timer( )
 void save( FILE *f, int n, particle_t *p, double size)
 {
     static bool first = true;
+    double size_coef = size / sqrt( 0.0005 * n );
     if( first )
     {
         fprintf( f, "%d %g\n", n, size );
         first = false;
     }
     for( int i = 0; i < n; i++ )
-        fprintf( f, "%g %g\n", p[i].x, p[i].y );
+        fprintf( f, "%g %g\n", p[i].x * size_coef, p[i].y * size_coef);
 }
 
 std::string working_dir() {

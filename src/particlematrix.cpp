@@ -2,22 +2,27 @@
 #include <cmath>
 #include "particlematrix.h"
 
-ParticleMatrix::ParticleMatrix(int n, int s) {
+ParticleMatrix::ParticleMatrix(int n) {
     nof_particles = n;
     nof_slices = NOF_SLICES;
-    size = s;
+
+    size = sqrt(0.0005 * n);
+
+    set_size(n);
+
+    particle_matrix.resize(NOF_SLICES);
 
     particles = new particle_t[nof_particles];
     init_particles(nof_particles, particles);
 }
 
-void ParticleMatrix::index_particles(particle_matrix_t & particle_matrix) {
+void ParticleMatrix::index_particles() {
 
-    particle_matrix_t slices(NOF_SLICES);
-
+    particle_matrix.clear();
+    particle_matrix.resize(NOF_SLICES);
 
     for (int i = 0; i < nof_particles; i++) {
-        int curr_particle_slice = (int) (particles[i].x*ceil(NOF_SLICES/size));
+        auto curr_particle_slice = (particles[i].x*ceil(NOF_SLICES/size));
 
         if (curr_particle_slice >= nof_slices) {
             curr_particle_slice = nof_slices-1;
@@ -25,26 +30,22 @@ void ParticleMatrix::index_particles(particle_matrix_t & particle_matrix) {
             curr_particle_slice = 0;
         }
 
-        slices[curr_particle_slice].push_back(&particles[i]);
+        particle_matrix[curr_particle_slice].push_back(&particles[i]);
     }
 
-    for (int i = 0; i < nof_slices; i++) {
-        particle_matrix.push_back(slices[i]);
-    }
 }
-void ParticleMatrix::collision_check(particle_matrix_t & particle_matrix) {
-
+void ParticleMatrix::collision_check() {
 #pragma omp parallel for
     for (int slice = 0; slice < NOF_SLICES; slice++) {
         int start = ((slice > 0) ? (slice - 1) : slice);
         int end = ((slice < nof_slices - 1) ? (slice + 2) : (slice + 1));
 
-        for (auto curr_particle = particle_matrix[slice].begin(); curr_particle != particle_matrix[slice].end(); curr_particle++ ) {
-            (**curr_particle).ax = (**curr_particle).ay = 0;
+        for (particle_t * curr_particle: particle_matrix[slice]) {
+            (*curr_particle).ax = (*curr_particle).ay = 0;
 
             for (int j = start; j < end; j++) {
-                for (auto neigh_particle = particle_matrix[j].begin(); neigh_particle != particle_matrix[j].end(); neigh_particle++ ) {
-                    apply_force((**curr_particle), (**neigh_particle));
+                for (particle_t * neigh_particle: particle_matrix[j]) {
+                    apply_force((*curr_particle), (*neigh_particle));
                 }
             }
         }
@@ -52,11 +53,9 @@ void ParticleMatrix::collision_check(particle_matrix_t & particle_matrix) {
 }
 
 void ParticleMatrix::perform_step() {
-    std::vector <std::vector<particle_t *>> particle_matrix;
+    index_particles();
 
-    index_particles(particle_matrix);
-
-    collision_check(particle_matrix);
+    collision_check();
 
     for (int i = 0; i < nof_particles; i++) {
         move(particles[i]);

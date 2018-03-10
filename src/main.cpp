@@ -31,9 +31,7 @@ int main( int argc, char **argv )
     int save_frequency = read_int( argc, argv, "-sf", SAVEFREQ);
     FILE *fsave = savename ? fopen( savename, "w" ) : NULL;
 
-    set_size(size);
-
-    ParticleMatrix matrix (n, size);
+    ParticleMatrix matrix (n);
 
 
     //

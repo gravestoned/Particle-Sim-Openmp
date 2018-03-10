@@ -1,14 +1,14 @@
 #include <random>
 #include "particles.h"
 
-double size = 5;
+double size;
 
 //
 //  tuned constants
 //
 #define density 0.0005
 #define mass    0.01
-#define cutoff  0.05
+#define cutoff  0.01
 #define min_r   (cutoff/100)
 #define dt      0.0005
 
@@ -37,9 +37,8 @@ void print_particle(particle_t particle) {
 //
 void set_size( int n )
 {
-    size = n; //sqrt( density * n );
+    size = sqrt( density * n );
 }
-
 //
 //  Initialize the particle positions and velocities
 //
@@ -116,8 +115,8 @@ void move( particle_t &p )
     //
     p.vx += p.ax * dt;
     p.vy += p.ay * dt;
-    p.x  += p.vx * dt;
-    p.y  += p.vy * dt;
+    p.x  += (p.vx * dt)/20;
+    p.y  += (p.vy * dt)/20;
 
     //
     //  bounce from walls
