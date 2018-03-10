@@ -115,8 +115,8 @@ void move( particle_t &p )
     //
     p.vx += p.ax * dt;
     p.vy += p.ay * dt;
-    p.x  += (p.vx * dt)/20;
-    p.y  += (p.vy * dt)/20;
+    p.x  += (p.vx * dt);
+    p.y  += (p.vy * dt);
 
     //
     //  bounce from walls

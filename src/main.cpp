@@ -40,6 +40,8 @@ int main( int argc, char **argv )
 
 
     double simulation_time = read_timer( );
+    double save_time_start, save_time_total = 0;
+
     for( int step = 0; step < NSTEPS; step++ )
     {
 
@@ -51,13 +53,16 @@ int main( int argc, char **argv )
         //  save if necessary
         //
         if( fsave && (step%save_frequency) == 0) {
+            save_time_start = read_timer();
             save(fsave, n, matrix.get_particles(), size);
+            save_time_total += read_timer()-save_time_start;
         }
     }
-    simulation_time = read_timer( ) - simulation_time;
+    simulation_time = read_timer( ) - simulation_time - save_time_total;
 
     printf( "n = %d, simulation time = %g seconds\n", n, simulation_time );
 
+    matrix.print();
     if( fsave ) {
         fclose(fsave);
 

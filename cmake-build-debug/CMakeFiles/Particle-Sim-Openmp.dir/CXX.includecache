@@ -41,6 +41,10 @@ cmath
 -
 particlematrix.h
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
+omp.h
+-
+queue
+-
 
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 particles.h
