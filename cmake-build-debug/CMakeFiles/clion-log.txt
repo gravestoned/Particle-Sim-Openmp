@@ -1,5 +1,5 @@
 E:\cygwin\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/cygwin/bin/make.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp
-src:/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.cpp/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/main.cpp/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.cpp/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.cpp
+src:/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.cpp/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/main.cpp/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.cpp
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/cmake-build-debug

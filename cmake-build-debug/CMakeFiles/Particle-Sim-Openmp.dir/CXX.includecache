@@ -9,8 +9,6 @@
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.cpp
 common.h
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
-time.h
--
 string.h
 -
 sys/time.h
@@ -19,16 +17,14 @@ cmath
 -
 windows.h
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/windows.h
+random
+-
 
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
-particles.h
-/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
 iostream
 -
 
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/main.cpp
-unistd.h
--
 common.h
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
 particlematrix.h
@@ -43,20 +39,12 @@ particlematrix.h
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 omp.h
 -
-queue
--
+common.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
 
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
-particles.h
-/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
+common.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
 vector
 -
-
-/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.cpp
-random
--
-particles.h
-/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
-
-/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h
 

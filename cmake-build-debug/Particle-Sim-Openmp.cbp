@@ -95,12 +95,6 @@
 		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h">
 			<Option target="Particle-Sim-Openmp"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.cpp">
-			<Option target="Particle-Sim-Openmp"/>
-		</Unit>
-		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particles.h">
-			<Option target="Particle-Sim-Openmp"/>
-		</Unit>
 		<Unit filename="/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

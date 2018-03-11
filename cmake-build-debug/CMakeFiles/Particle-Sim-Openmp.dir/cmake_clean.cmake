@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Particle-Sim-Openmp.dir/src/common.cpp.o"
   "CMakeFiles/Particle-Sim-Openmp.dir/src/main.cpp.o"
   "CMakeFiles/Particle-Sim-Openmp.dir/src/particlematrix.cpp.o"
-  "CMakeFiles/Particle-Sim-Openmp.dir/src/particles.cpp.o"
   "Particle-Sim-Openmp.pdb"
   "Particle-Sim-Openmp.exe"
   "libParticle-Sim-Openmp.dll.a"

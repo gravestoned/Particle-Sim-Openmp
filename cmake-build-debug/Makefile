@@ -204,33 +204,6 @@ src/particlematrix.cpp.s:
 	$(MAKE) -f CMakeFiles/Particle-Sim-Openmp.dir/build.make CMakeFiles/Particle-Sim-Openmp.dir/src/particlematrix.cpp.s
 .PHONY : src/particlematrix.cpp.s
 
-src/particles.o: src/particles.cpp.o
-
-.PHONY : src/particles.o
-
-# target to build an object file
-src/particles.cpp.o:
-	$(MAKE) -f CMakeFiles/Particle-Sim-Openmp.dir/build.make CMakeFiles/Particle-Sim-Openmp.dir/src/particles.cpp.o
-.PHONY : src/particles.cpp.o
-
-src/particles.i: src/particles.cpp.i
-
-.PHONY : src/particles.i
-
-# target to preprocess a source file
-src/particles.cpp.i:
-	$(MAKE) -f CMakeFiles/Particle-Sim-Openmp.dir/build.make CMakeFiles/Particle-Sim-Openmp.dir/src/particles.cpp.i
-.PHONY : src/particles.cpp.i
-
-src/particles.s: src/particles.cpp.s
-
-.PHONY : src/particles.s
-
-# target to generate assembly for a file
-src/particles.cpp.s:
-	$(MAKE) -f CMakeFiles/Particle-Sim-Openmp.dir/build.make CMakeFiles/Particle-Sim-Openmp.dir/src/particles.cpp.s
-.PHONY : src/particles.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,9 +222,6 @@ help:
 	@echo "... src/particlematrix.o"
 	@echo "... src/particlematrix.i"
 	@echo "... src/particlematrix.s"
-	@echo "... src/particles.o"
-	@echo "... src/particles.i"
-	@echo "... src/particles.s"
 .PHONY : help
 
 
