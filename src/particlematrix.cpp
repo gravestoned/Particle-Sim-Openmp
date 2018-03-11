@@ -1,8 +1,8 @@
 #include <cstdio>
 #include <cmath>
-#include "particlematrix.h"
 #include <omp.h>
-#include "common.h"
+#include "particlematrix.h"
+
 
 double i_start, i_total = 0;
 double c_start, c_total = 0;

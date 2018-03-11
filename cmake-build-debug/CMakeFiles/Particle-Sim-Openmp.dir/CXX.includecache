@@ -35,12 +35,10 @@ cstdio
 -
 cmath
 -
-particlematrix.h
-/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 omp.h
 -
-common.h
-/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/common.h
+particlematrix.h
+/cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 
 /cygdrive/d/dev/Particle-Sim-Openmp/Particle-Sim-Openmp/src/particlematrix.h
 common.h
