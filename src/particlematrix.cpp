@@ -2,6 +2,7 @@
 #include <cmath>
 #include <omp.h>
 #include "particlematrix.h"
+#include "common.h"
 
 
 double i_start, i_total = 0;
@@ -11,7 +12,7 @@ double s_start, s_total = 0;
 
 ParticleMatrix::ParticleMatrix(int n) {
     nof_particles = n;
-    nof_slices = n/10;
+    nof_slices = (n > 10) ? n/10 : 1;
 
     size = sqrt(0.0005 * n);
 
@@ -23,12 +24,11 @@ ParticleMatrix::ParticleMatrix(int n) {
 
 void ParticleMatrix::perform_steps(int n, bool perform_save) {
 
-#pragma omp parallel
+#pragma omp parallel num_threads(4)
     for (int step = 0; step < n; step ++) {
 
         #pragma omp master
         {
-
             i_start = omp_get_wtime();
 
             for (int i = 0; i < nof_slices; i++) {
